@@ -3,7 +3,7 @@ Feature: HU-013 - Soporte en Linea
   Como persona tecnologicamente capacitada, quiero tener acceso a soporte en linea para resolver problemas tecnicos rapidamente.
 
   Scenario Outline: Acceso a soporte adecuado (chat o email)
-    Given El usuario esta en la seccion de soporte
+    Given El usuario esta en la sección de soporte
     When Solicita ayuda
     Then Debe ser dirigido a un canal adecuado (chat en vivo, correo electronico)
 
