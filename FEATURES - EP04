@@ -2,7 +2,7 @@ Feature: HU-001 - Acceso Multicanal
 
   Como persona tecnologicamente capacitada, quiero acceder a FlexPay desde multiples dispositivos para gestionar mis fondos en cualquier lugar.
 
-  Scenario Outline: Acceso sin perdida de informacion
+  Scenario Outline: Acceso sin perdida de información
     Given El usuario ha iniciado sesion en FlexPay desde movil o web
     When El usuario accede a FlexPay desde otro dispositivo
     Then El sistema debe permitir acceso sin perdida de informacion
