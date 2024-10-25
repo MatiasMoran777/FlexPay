@@ -12,7 +12,7 @@ Feature: HU-002 - Preferencias de Idioma
     When Selecciona otro idioma
     Then La aplicacion debe actualizarse sin reiniciar sesion
 
-  Scenario Outline: Navegacion completa en el idioma seleccionado
+  Scenario Outline: Navegación completa en el idioma seleccionado
     Given El usuario cambia el idioma
     When Navega por FlexPay
     Then Todo debe estar en el idioma seleccionado  
