@@ -2,7 +2,7 @@ Feature: HU-005 - Gestion del Historial de Transacciones
 
   Como persona tecnologicamente capacitada, quiero revisar mi historial de transacciones para tener control de mis gastos y pagos.
 
-  Scenario Outline: Visualizacion del historial por periodo seleccionado
+  Scenario Outline: Visualización del historial por periodo seleccionado
     Given El usuario selecciona un periodo
     When Lo hace
     Then Debe ver un historial completo de sus transacciones en ese intervalo
