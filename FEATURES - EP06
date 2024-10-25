@@ -2,7 +2,7 @@ Feature: HU-018 - Integracion con POS
 
   Como comerciante, quiero integrar FlexPay con mi sistema POS para aceptar pagos en criptomonedas y monedas tradicionales.
 
-  Scenario Outline: Procesamiento de pagos y actualizacion automatica del inventario
+  Scenario Outline: Procesamiento de pagos y actualización automatica del inventario
     Given La integracion esta activa
     When Se realiza una venta
     Then El sistema POS debe procesar los pagos y actualizar el inventario automaticamente
