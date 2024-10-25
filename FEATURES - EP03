@@ -86,7 +86,7 @@ Feature: HU-023 - Gestion de Reembolsos
     When El comerciante inicia el proceso
     Then Debe ingresar la informacion requerida y aprobar o rechazar la solicitud
 
-  Scenario Outline: Actualizacion automatica del estado de la transaccion tras el reembolso
+  Scenario Outline: Actualización automatica del estado de la transaccion tras el reembolso
     Given El reembolso es aprobado
     When Se procesa
     Then El estado de la transaccion debe actualizarse para reflejar el reembolso
