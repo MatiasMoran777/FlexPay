@@ -2,7 +2,7 @@ Feature: HU-004 - Seguridad Multifactor
 
   Como persona tecnologicamente capacitada, quiero habilitar la autenticacion multifactor en FlexPay para mejorar la seguridad de mi cuenta.
 
-  Scenario Outline: Codigo de verificacion en dispositivo movil
+  Scenario Outline: Codigo de verificación en dispositivo movil
     Given El usuario activa la autenticacion multifactor 
     When Inicia sesion
     Then Debe recibir un codigo en su dispositivo movil para confirmacion
