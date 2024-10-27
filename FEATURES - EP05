@@ -11,7 +11,7 @@ Feature: HU-013 - Soporte en Linea
     Given El usuario ha enviado una solicitud de soporte
     When Se recibe
     Then Debe recibir una respuesta en menos de 24 horas
-
+ 
   Scenario Outline: Solucion detallada o guia para resolver el problema
     Given El soporte ha respondido
     When El usuario describe su problema
