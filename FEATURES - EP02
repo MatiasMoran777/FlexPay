@@ -20,7 +20,7 @@ Feature: HU-004 - Seguridad Multifactor
 
 Feature: HU-008 - Gestion de Seguridad Personalizada
 
-  Como persona tecnologicamente capacitada, quiero ajustar mis preferencias de seguridad para proteger mi cuenta en FlexPay.    
+  Como persona tecnologicamente capacitada, quiero ajustar mis preferencias de seguridad para proteger mi cuenta en FlexPay.     
 
   Scenario Outline: Confirmacion de cambios en la seguridad
     Given El usuario accede a la configuracion de seguridad
