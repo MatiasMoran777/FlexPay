@@ -9,7 +9,7 @@ Feature: HU-004 - Seguridad Multifactor
 
   Scenario Outline: Autenticacion para acciones sensibles 
     Given El usuario realiza una accion sensible
-    When Esta requiere seguridad adicional
+    When Esta requiere seguridad adicional   
     Then Debe pasar por el proceso de autenticacion multifactor
 
   Scenario Outline: Revision del estado de autenticacion multifactor
