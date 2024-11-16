@@ -15,7 +15,7 @@ Feature: HU-013 - Soporte en Linea
   Scenario Outline: Solucion detallada o guia para resolver el problema
     Given El soporte ha respondido
     When El usuario describe su problema
-    Then Debe recibir una solucion detallada o una guia para resolverlo
+    Then Debe recibir una solucion detallada o una guia para resolverlo    
 
 
 Feature: HU-029 - Acceso a Soporte Especializado
