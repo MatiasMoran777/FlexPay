@@ -7,7 +7,7 @@ Feature: HU-002 - Preferencias de Idioma
     When Realiza el cambio
     Then Toda la interfaz debe actualizarse sin errores
 
-  Scenario Outline: Cambio de idioma sin reiniciar sesion
+  Scenario Outline: Cambio de idioma sin reiniciar sesion    
     Given El usuario desea cambiar el idioma
     When Selecciona otro idioma
     Then La aplicacion debe actualizarse sin reiniciar sesion
