@@ -6,7 +6,7 @@ body {
     overflow-x: hidden;
     background-repeat: no-repeat;
     width: 100vw;
-    box-sizing: border-box;
+    box-sizing: border-box;   
 }
 :root{
     --poppins: 'Poppins', sans-serif;
