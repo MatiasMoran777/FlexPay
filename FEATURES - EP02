@@ -7,7 +7,7 @@ Feature: HU-004 - Seguridad Multifactor
     When Inicia sesion
     Then Debe recibir un codigo en su dispositivo movil para confirmacion
 
-  Scenario Outline: Autenticacion para acciones sensibles
+  Scenario Outline: Autenticacion para acciones sensibles 
     Given El usuario realiza una accion sensible
     When Esta requiere seguridad adicional
     Then Debe pasar por el proceso de autenticacion multifactor
