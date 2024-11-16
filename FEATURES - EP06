@@ -10,7 +10,7 @@ Feature: HU-018 - Integracion con POS
   Scenario Outline: Sincronizacion correcta de ajustes entre POS y FlexPay
     Given El comerciante ajusta la integracion
     When Realiza cambios
-    Then El sistema POS y FlexPay deben sincronizarse sin errores
+    Then El sistema POS y FlexPay deben sincronizarse sin errores                  
 
   Scenario Outline: Confirmacion en tiempo real de las transacciones
     Given Se completa una venta
