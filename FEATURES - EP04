@@ -11,7 +11,7 @@ Feature: HU-001 - Acceso Multicanal
     Given El usuario realiza cambios en un dispositivo 
     When El usuario accede desde otro dispositivo
     Then Los cambios deben estar sincronizados entre dispositivos
-
+      
   Scenario Outline: Ajuste automatico de la interfaz segun la resolucion
     Given El usuario accede desde un dispositivo con diferente resolucion
     When Navega por FlexPay
