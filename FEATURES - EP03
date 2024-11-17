@@ -5,7 +5,7 @@ Feature: HU-005 - Gestion del Historial de Transacciones
   Scenario Outline: Visualización del historial por periodo seleccionado
     Given El usuario selecciona un periodo
     When Lo hace
-    Then Debe ver un historial completo de sus transacciones en ese intervalo
+    Then Debe ver un historial completo de sus transacciones en ese intervalo.
 
   Scenario Outline: Filtro y actualizacion del historial
     Given El usuario aplica un filtro
