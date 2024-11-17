@@ -7,7 +7,7 @@ Feature: HU-001 - Acceso Multicanal
     When El usuario accede a FlexPay desde otro dispositivo
     Then El sistema debe permitir acceso sin perdida de informacion
 
-  Scenario Outline: Sincronizacion de cambios entre dispositivos
+  Scenario Outline: Sincronizacion de cambios entre dispositivos.
     Given El usuario realiza cambios en un dispositivo 
     When El usuario accede desde otro dispositivo
     Then Los cambios deben estar sincronizados entre dispositivos
