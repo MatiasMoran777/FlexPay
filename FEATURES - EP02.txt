@@ -15,7 +15,7 @@ Feature: HU-004 - Seguridad Multifactor
   Scenario Outline: Revision del estado de autenticacion multifactor     
     Given El usuario desea revisar su configuracion de seguridad
     When Accede a la seccion correspondiente
-    Then Debe ver si la autenticacion multifactor esta activada o no 
+    Then Debe ver si la autenticacion multifactor esta activada o no.
 
 
 Feature: HU-008 - Gestion de Seguridad Personalizada
