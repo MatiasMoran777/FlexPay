@@ -15,7 +15,7 @@ Feature: HU-006 - Busqueda de Transacciones Avanzada
   Scenario Outline: Sugerencias cuando no hay resultados
     Given El usuario realiza una busqueda sin resultados
     When Esto ocurre
-    Then Debe recibir un mensaje y sugerencias para refinar la busqueda 
+    Then Debe recibir un mensaje y sugerencias para refinar la busqueda.
 
 
 Feature: HU-014 - Actualizacion de Datos de Usuario
